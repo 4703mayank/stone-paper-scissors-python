@@ -5,8 +5,7 @@ from game import Move, play_round, move_to_emoji
 st.set_page_config(page_title="Stone · Paper · Scissors", page_icon="🎮", layout="centered")
 
 # Title
-st.markdown("<h1 style='text-align: center; color: #FF5733;'>🪨 📄 ✂️ Stone · Paper · Scissors</h1>", unsafe_allow_html=True)
-st.caption("Made with ❤️ using Python & Streamlit")
+st.markdown("<h1 style='text-align: center; color:#F0FFFF   ;'>🪨 📄 ✂️ Stone · Paper · Scissors</h1>", unsafe_allow_html=True)
 
 # Sidebar
 with st.sidebar:
